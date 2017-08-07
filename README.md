@@ -1,3 +1,5 @@
+<h1>Master Pages in PHP</h1>
+<h2>Replicating ASP.NET's Master Pages in PHP</h2>
 <h3>Introduction:</h3>
 One of the things I like about ASP.NET are <a title="ASP.NET Master Pages" href="https://msdn.microsoft.com/en-us/library/wtxbf3hh.aspx" target="_blank" rel="noopener noreferrer">Master Pages</a>. If you aren't familiar with the concept, it's simple; think of Master Pages as templates. Instead of having to include duplicate code in each page you write, such as meta tags, footers, etc., you can create a single Master Page that holds all that information. When you write your page, you only code the "meat" of your page, such as the privacy policy text or article. You then call on the Master Page, which takes the "meat" and places it in an appropriate content placeholder in the Master Page, but displays it as the calling page, i.e., default.aspx. The advantages are obvious:
 <ul>
